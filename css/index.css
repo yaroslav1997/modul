@@ -1,0 +1,56 @@
+*{
+	position: relative;
+	display: inline-block;
+}
+.cube_1{
+	background: red;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+
+}
+.cube_2{
+	background: blue;
+	width: 150px;
+	height: 150px;
+	margin: -20px -180px 0 -5px;
+}
+.cube_3{
+	background: green;
+	width: 150px;
+	height: 150px;
+	margin: -40px 0 0 175px;
+}
+.cube{
+	background: black;
+	width: 600px;
+	height: 170px;
+
+}
+
+.cubes_1{
+	background: red;
+	width: 150px;
+	height: 150px;
+	display: block;
+
+}
+.cubes_2{
+	background: blue;
+	width: 150px;
+	height: 150px;
+	margin: -20px 0 0 70px;
+	display: block;
+}
+.cubes_3{
+	background: green;
+	width: 150px;
+	height: 150px;
+	margin: -40px 0 0 140px;
+	display: block;
+}
+@media only screen and (max-width: 500px){
+	div{
+		border-radius: 50%;
+	}
+}
